@@ -1,0 +1,60 @@
+.works {
+    padding-top: 100px;
+
+    .works__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .works__title {
+            font-family: Outfit;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50.4px;
+            text-align: left;
+            color: #141123;
+            margin-bottom: 15px;
+        }
+
+        .works__text {
+            width: 505px;
+            height: 78px;
+            top: 1650.62px;
+            left: 150px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Outfit;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 26px;
+            text-align: left;
+            color: #141123;
+            margin-bottom: 15px;
+        }
+
+        .works__block {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+
+            .works__sub-title {
+                font-family: Outfit;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 28px;
+                text-align: left;
+                color: #141123;
+            }
+        }
+
+        .works__image {
+            width: 543.23px;
+            height: 460.59px;
+            top: 1565px;
+            left: 746px;
+            gap: 0px;
+            opacity: 0px;
+        }
+    }
+}

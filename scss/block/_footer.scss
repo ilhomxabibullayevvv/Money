@@ -1,0 +1,27 @@
+.footer {
+    padding: 50px 0;
+
+    .footer__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer__title {
+            font-family: Outfit;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 28px;
+            text-align: left;
+            color: #141123;
+        }
+
+        .footer__link {
+            font-family: Outfit;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 40px;
+            text-align: left;
+            color: #141123;
+        }
+    }
+}

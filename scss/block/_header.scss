@@ -1,0 +1,46 @@
+.header {
+    padding-top: 15px;
+
+    .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header__list {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .header__link {
+                font-family: Outfit;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20.16px;
+                text-align: left;
+                color: #141123;
+            }
+        }
+
+        .header__btn {
+            width: 119px;
+            height: 45px;
+            padding: 13px 20px 13px 20px;
+            gap: 10px;
+            border-radius: 50px 50px 50px 50px;
+            opacity: 0px;
+            background: #FFFFFF;
+            border: 1.5px solid #917FF2;
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18.78px;
+            text-align: center;
+            color: #917FF2;
+        }
+
+        .header__btn:hover {
+            background: linear-gradient(180deg, #BDB2FD 0%, #917FF2 100%);
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.hero {
+    padding-top: 50px;
+
+    .hero__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .hero__title {
+            width: 524px;
+            height: 228px;
+            top: 241px;
+            left: 150px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Outfit;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 75.6px;
+            text-align: left;
+            color: #141123;
+            margin-bottom: 15px;
+        }
+
+        .hero__text {
+            width: 500px;
+            height: 52px;
+            top: 489px;
+            left: 150px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Outfit;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 26px;
+            text-align: left;
+            color: #14112366;
+            margin-bottom: 30px;
+        }
+
+        .hero__button {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .hero__btn {
+                width: 193px;
+                height: 60px;
+                top: 591px;
+                left: 150px;
+                padding: 13px 20px 13px 20px;
+                gap: 10px;
+                border-radius: 50px 50px 50px 50px;
+                opacity: 0px;
+                background: #FFFFFF;
+                border: 1.5px solid #917FF2;
+                font-family: Outfit;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20.16px;
+                text-align: center;
+                color: #917FF2;
+            }
+
+            .hero__btn:hover {
+                background: linear-gradient(180deg, #BDB2FD 0%, #917FF2 100%);
+                color: #FFFFFF;
+            }
+        }
+
+        .hero__image {
+            width: 487px;
+            height: 666px;
+            top: 115px;
+            left: 824px;
+            gap: 0px;
+            opacity: 0px;
+        }
+    }
+}

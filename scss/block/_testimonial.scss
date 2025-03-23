@@ -1,0 +1,98 @@
+.testimonial {
+    padding-top: 100px;
+
+    .testimonial__title {
+        font-family: Outfit;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50.4px;
+        text-align: center;
+        color: #141123;
+        margin-bottom: 15px;
+    }
+
+    .testimonial__text {
+        width: 600px;
+        height: 52px;
+        top: 3022px;
+        left: 150px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: center;
+        color: #14112366;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .testimonial__image {
+        width: 150px;
+        height: 150px;
+        top: 3124px;
+        left: 670px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 515px;
+    }
+
+    .testimonial__card {
+        width: 556px;
+        height: 118px;
+        top: 3254px;
+        left: 442px;
+        gap: 0px;
+        border-radius: 20px 20px 20px 20px;
+        opacity: 0px;
+        background: #FFFFFF;
+        box-shadow: 0px 8.15px 6.52px 0px #00000002;
+        box-shadow: 0px 50px 100px 0px #0000000A;
+        margin-left: 300px;
+
+        .testimonial__sub-text {
+            width: 516px;
+            height: 78px;
+            top: 3274px;
+            left: 462px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Outfit;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 26px;
+            text-align: center;
+            color: #141123;
+            padding-top: 15px;
+            margin-left: 20px;
+        }
+    }
+
+    .testimonial__block {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-left: 460px;
+        margin-top: 50px;
+
+        .testimonial__name {
+            font-family: Outfit;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+            text-align: center;
+            color: #141123;
+        }
+
+        .testimonial__city {
+            font-family: Outfit;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            text-align: center;
+            color: #14112366;
+        }
+    }
+}

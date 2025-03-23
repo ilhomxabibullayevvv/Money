@@ -1,0 +1,121 @@
+.welcome {
+    padding-top: 100px;
+
+    .welcome__title {
+        width: 400px;
+        height: 100px;
+        top: 926px;
+        left: 150px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Outfit;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50.4px;
+        text-align: center;
+        color: #141123;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    .welcome__text {
+        width: 640px;
+        height: 52px;
+        top: 1040px;
+        left: 150px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: center;
+        color: #141123;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .welcome__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .welcome__card {
+            width: Hug (270px)px;
+            height: Hug (323px)px;
+            padding: 20px 20px 20px 20px;
+            gap: 10px;
+            border-radius: 20px 20px 20px 20px;
+            border: 1px 1px 1px 1px;
+            opacity: 0px;
+            background: #FAFAFA;
+            border: 1px solid rgba(248, 248, 248, 0);
+            box-shadow: 0px 8.15px 6.52px 0px #00000002;
+            box-shadow: 0px 50px 100px 0px #0000000A;
+
+            .welcome__image {
+                width: 80px;
+                height: 80px;
+                padding: 20px 20px 20px 20px;
+                gap: 10px;
+                border-radius: 30px 30px 30px 30px;
+                opacity: 0px;
+                margin-left: 70px;
+            }
+
+            .welcome__sub-title {
+                font-family: Outfit;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 25.2px;
+                text-align: center;
+                color: #141123;
+                margin-bottom: 15px;
+            }
+
+            .welcome__sub-text {
+                width: 230px;
+                height: 78px;
+                gap: 0px;
+                opacity: 0px;
+                font-family: Outfit;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 26px;
+                text-align: center;
+                color: #141123;
+                margin-bottom: 15px;
+            }
+
+            .welcome__btn {
+                width: 140px;
+                height: 50px;
+                padding: 13px 20px 13px 20px;
+                gap: 10px;
+                border-radius: 50px 50px 50px 50px;
+                border: 1.5px 0px 0px 0px;
+                opacity: 0px;
+                background: #FFFFFF;
+                border: 1.5px solid #917FF2;
+                font-family: Outfit;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20.16px;
+                text-align: center;
+                color: #917FF2;
+                margin-left: 40px;
+            }
+
+            .welcome__btn:hover {
+                background: linear-gradient(180deg, #BDB2FD 0%, #917FF2 100%);
+                color: #FFFFFF;
+            }
+        }
+
+        .welcome__card:hover {
+            background: #FFFFFF;
+        }
+    }
+}
